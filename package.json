@@ -1,0 +1,19 @@
+{
+  "name": "@nodon-tech/eslint-config-react",
+  "version": "0.0.1",
+  "description": "Nodon ESLint for React projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "dependencies": {
+    "@nodon-tech/eslint-config": "0.0.1"
+  },
+  "peerDependencies": {
+    "eslint-plugin-react": ">= 7",
+    "eslint-plugin-react-hooks": ">= 4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
