@@ -4,6 +4,7 @@
   "description": "Nodon ESLint for React projects",
   "main": "index.js",
   "private": false,
+  "scope": "@nodon-tech",
   "scripts": {
     "test": "exit 0",
     "release:minor": "npm version minor && git push && npm publish --access public",
