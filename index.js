@@ -1,10 +1,10 @@
 module.exports = {
-  "plugins": [
+  plugins: [
     'react-hooks'
   ],
-  "extends": [
+  extends: [
     'plugin:react/recommended',
-    '@allbin/eslint-config',
+    '@nodon-tech/eslint-config',
     'plugin:react-hooks/recommended'
   ],
   parserOptions: {
