@@ -8,10 +8,9 @@
   "scripts": {
     "test": "exit 0",
     "release:minor": "npm version minor && git push && npm publish --access public",
-    "release:patch": "npm version patch && git push && npm publish --access public"
-  },
-  "dependencies": {
-    "@nodon-tech/eslint-config": "1.0.0"
+    "release:patch": "npm version patch && git push && npm publish --access public",
+    "use-eslint-from-localhost": "npm install ../eslint-config --save",
+    "use-eslint-from-npm": "npm install @nodon-tech/eslint-config@latest --save"
   },
   "peerDependencies": {
     "eslint-plugin-react": ">= 7",
@@ -19,5 +18,8 @@
   },
   "keywords": [],
   "author": "Nodon",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@nodon-tech/eslint-config": "file:../eslint-config"
+  }
 }
